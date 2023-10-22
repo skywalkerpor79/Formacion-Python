@@ -63,9 +63,9 @@
 
 # print(my_list)
 
+Beatles=[]
 
 print("Paso 1:", Beatles)
-Beatles=[]
 
 print("Paso 2:", Beatles)
 Beatles.append("John Lennon")
