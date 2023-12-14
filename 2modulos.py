@@ -17,4 +17,16 @@
 from math import sin, pi
 print(sin(pi/2))
 
+# Par importarlo todo pero tendremos conflictos de nombres seguramente i no es recomendable
+# from module import *
+# si no nos gusta el nombre del modulo lo canviamos con as
+# import module as alias
+# from math import pi as PI, sin as sine
+
+import math
+
+for name in dir(math):
+    print(name, end="\t")
+
+
 
