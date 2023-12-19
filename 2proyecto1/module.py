@@ -2,6 +2,7 @@
 # print(__name__)
 
 # counter = 0
+# La siguiente linea podria servir para evitar que un usuario de tu modulo ejecute el codigo como un script
 # if __name__ == "__main__":
 #     print("Yo prefiero ser un módulo")
 # else:
